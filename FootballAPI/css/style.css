@@ -1,0 +1,86 @@
+/* per tutte le pagine */
+body {
+  font-family: sans-serif;
+  background-color: #1e3e69;
+  color: #dadada;
+}
+a {
+  color: #dadada;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+a:hover {
+  cursor: pointer;
+  color: #18aa00;
+}
+header {
+  background-color: #18aa00;
+  height: 125px;
+}
+h1 {
+  text-align: center;
+  color: #1e3e69;
+  font-size: 3em;
+  padding: 35px 0px;
+}
+main {
+  width: 60%;
+  margin: 50px auto;
+}
+h2 {
+  text-align: center;
+  font-size: 2.2em;
+  padding: 15px 0;
+  border: 1px solid #18aa00;
+}
+
+/* solo pagina home */
+aside {
+  width: 30%;
+  float: left;
+}
+aside li {
+  padding-top: 20px;
+}
+div.content {
+  width: 70%;
+  float: right;
+}
+div.content>p {
+  text-align: right;
+}
+h3 {
+  font-size: 1.5em;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+section#matches p {
+  font-size: 1.1em;
+  text-indent: 20px;
+  padding-left: 30px;
+}
+hr {
+  border-color: #18aa00;
+}
+
+/* solo pagina standings */
+table {
+  width: 70%;
+  margin: auto;
+  border: 1px solid #dadada;
+  border-collapse: collapse;
+}
+td, th {
+  border: 1px solid #dadada;
+  text-align: center;
+  padding: 7px;
+}
+th {
+  padding: 10px;
+}
+td.sq {
+  text-align: left;
+}
+section.table p {
+  padding-top: 20px;
+}

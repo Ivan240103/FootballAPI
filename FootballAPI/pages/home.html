@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta name="author" content="Ivan De Simone">
+    <meta charset="utf-8">
+    <link rel="icon" href="../images/ball_icon.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="../js/script.js"></script>
+    <title>Esercizio JSON 3 - Home</title>
+  </head>
+  <body onload="show()">
+    <header>
+      <h1>MY FOOTBALL</h1>
+    </header>
+    <main>
+      <aside class="menuSx">
+        <ul>
+          <li><a onclick="leagueRequest('SA')">Serie A</a></li>
+          <li><a onclick="leagueRequest('PL')">Premier League</a></li>
+          <li><a onclick="leagueRequest('BL1')">Bundesliga</a></li>
+          <li><a onclick="leagueRequest('PD')">Primera Division</a></li>
+          <li><a onclick="leagueRequest('FL1')">Ligue 1</a></li>
+          <li><a onclick="leagueRequest('PPL')">Primeira Liga</a></li>
+          <li><a onclick="leagueRequest('DED')">Eredivisie</a></li>
+        </ul>
+      </aside>
+      <div class="content">
+        <p><a href="standing.html">Classifica</a></p>
+        <section id="matches">
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

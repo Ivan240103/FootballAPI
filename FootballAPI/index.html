@@ -1,0 +1,25 @@
+<!-- pagina solo per impostare il campionato Serie A come default -->
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Ivan De Simone">
+    <title>Loading</title>
+    <link rel="icon" href="images/ball_icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+      function test() {
+        sessionStorage.setItem('comp', 'SA')
+        window.open('pages/home.html', '_self')
+      }
+    </script>
+  </head>
+  <body onload="test()">
+    <header>
+      <h1>MY FOOTBALL</h1>
+    </header>
+    <main style="text-align: center;">
+      <p style="font-size: 1.2em;">Caricamento pagina in corso</p>
+    </main>
+  </body>
+</html>
